@@ -6,22 +6,34 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "biome": "biome format --write ./src"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.8.2",
+    "@types/reveal": "^4.2.0",
+    "axios": "^1.9.0",
+    "mysql2": "^3.14.1",
+    "next": "15.3.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.3"
+    "react-redux": "^9.2.0",
+    "reveal.js": "^5.2.1",
+    "revealjs-react": "^0.1.0",
+    "uuid": "^11.1.0",
+    "zod": "^3.25.51"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
+    "@biomejs/biome": "1.9.4",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20.17.57",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
+    "@types/reveal.js": "^5.0.5",
     "eslint": "^9",
     "eslint-config-next": "15.3.3",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
